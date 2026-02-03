@@ -36,10 +36,11 @@ The system combines real-time market data scraping, price-aware scheduling logic
 - Shifts appliance operation to lower-cost time slots
 - Avoids scheduling conflicts between appliances
 - Special handling for critical appliances like refrigerators
-Cost = Power × MCP × Time Slot Duration
 - Compares original user schedule with optimized schedule
 - Calculates daily cost savings
-
+### 4. Cost Evaluation
+- Computes electricity cost using:
+- Cost = Power × MCP × Time Slot Duration
 ### 5. Graphical User Interface
 - Tkinter-based desktop GUI
 - Allows users to:
@@ -96,5 +97,3 @@ intelligent-grid-iex/
 ## 👨‍💻 Author
 Akshath Senthilkumar
 
-### 4. Cost Evaluation
-- Computes electricity cost using:
