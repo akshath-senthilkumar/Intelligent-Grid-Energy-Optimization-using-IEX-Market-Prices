@@ -50,14 +50,16 @@ Cost = Power × MCP × Time Slot Duration
 
 ---
 
-## 🗂️ Project Structure
-intelligent-grid-iex/
-├── scraper_iex_mcp.py # IEX MCP web scraping module
-├── scheduler_optimization.py # Scheduling & cost optimization logic
-├── front_gui.py # Tkinter-based desktop interface
-├── README.md
+## 📁 Project Structure
 
----
+```
+intelligent-grid-iex/
+├── scraper_iex_mcp.py          # IEX MCP web scraping module
+├── scheduler_optimization.py  # Scheduling & cost optimization logic
+├── front_gui.py               # Tkinter-based desktop interface
+├── README.md
+```
+
 
 ## 🛠️ Tech Stack
 - Python
